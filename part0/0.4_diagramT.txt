@@ -1,0 +1,17 @@
+note over browser:
+The button on the form is clicked
+end note
+
+browser->server: form data is send whit HTTP POST
+server-->browser: The server responds with HTTP status code 302
+
+note over browser:
+reloads the notes page
+end note
+
+browser->server: fetch main.css
+server-->browser: main.css
+browser->server: fetch main.js
+server-->browser: main.js
+browser->server: fetch data.json
+server-->browser: data.json
