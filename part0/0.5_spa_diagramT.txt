@@ -1,0 +1,8 @@
+Browser->Server: Fetch spa.html
+Server-->Browser: spa.html
+Browser->Server: Fetch main.css
+Server-->Browser: main.css
+Browser->Server: Fetch spa.js
+Server-->Browser: spa.js
+Browser->Server: Fetch data.json
+Server-->Browser: AJAX data.json  
